@@ -1,1 +1,2 @@
 # shuita
+aralin mo to!
