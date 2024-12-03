@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Structures - Arrays and Linked Lists</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="sortingalgorithm.css">
+</head>
+<body>
+    
+    <nav> 
+        <img src="" alt="">
+        <ul class="nav">
+            <li><a href="home.html" class="nav-link">HOME</a></li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    LIST
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="singlyfront.html">Singly Linked List</a></li>
+                    <li><a class="dropdown-item" href="doublyfront.html">Doubly Linked List</a></li>
+                    <li><a class="dropdown-item" href="circularfront.html">Circular Linked List</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    ALGORITHM
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="algorithmfront.html">Algorithm</a></li>
+                    <li><a class="dropdown-item" href="sortingalgorithmfront.html">Sorting Algorithm</a></li>
+                    
+                </ul>
+            </li>
+
+            <li><a href="pseudocodefront.html" class="nav-link">PSEUDOCODE</a></li>
+            <li><a href="arrayFRONT.html" class="nav-link">ARRAY</a></li>
+            <li><a href="queuesFRONT.html" class="nav-link">QUEUES</a></li>
+            <li><a href="stackfront.html" class="nav-link">STACK</a></li>
+            <li><a href="treefront.html" class="nav-link">TREES</a></li>
+            
+        </ul>
+    </nav>
+
+
+    <header class="text-center my-4">
+        <h1 class="display-4">Sorting Algorithm</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-4">
+        <!-- Section 1: Arrays -->
+        <section id="sort" class="mb-5">
+            <h2 class="text-success">What is Sorting Algorithm?</h2>
+            <div class="row align-items-center mb-4">
+                <div class="col-md-8">
+                    <p><span>Sorting algorithm</span> are methods used to <span>arrange data</span>,
+                         such as numbers or words, into a <span>specific order (e.g., ascending or descending)</span>.
+                          These algorithms are essential for organizing and retrieving data efficiently.
+                           Sorting improves the performance of other algorithms,
+                         such as searching or merging datasets.</p>
+                </div>
+            </div>
+        </section>
+    <!-- Header -->
+    <header class="text-center my-4">
+        <h1 class="display-4">Five Examples of Sorting Algorithm</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-4">
+        <!-- Section 1: Arrays -->
+        <section id="sorting" class="mb-5">
+            <h2 class="text-success">Bubble Sort</h2>
+            <div class="row align-items-center mb-4">
+                <div class="col-md-4">
+                    <img src="image/bubble-sort-python.jpg" alt="Example of Arrays" class="img-fluid rounded shadow" id="zoomImage"><br><br>
+                    <img src="image/bubblesortpic.png" alt="Example of Arrays" class="img-fluid rounded shadow" id="zoomImage"><br><br>
+                </div>
+                <div class="col-md-8">
+                    <p><span>Bubble Sort is a simple way to sort a list of items, like numbers or words, in order from smallest to largest (or largest to smallest).</span> It works by repeatedly going through the list and comparing two items at a time. <span>If the first item is bigger than the second, they swap places</span>. This process is repeated for each pair of items in the list, moving through the entire list until everything is in the right order. <span>The reason it's called "bubble sort" is that, just like bubbles in water rise to the top, the largest items in the list "bubble up" to their correct position after each pass through the list. Even though it's easy to understand, bubble sort can be slow when there are lots of items to sort.</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Linked Lists -->
+        <section id="sorting" class="mb-5">
+            <h2 class="text-success">Selection Sort</h2>
+            <div class="row align-items-center mb-4">
+                <div class="col-md-4">
+                    <img src="image/selection sort.webp" alt="Example of Arrays" class="img-fluid rounded shadow" id="zoomImage"><br><br>
+                    <img src="image/selectionsortpic.png" alt="Example of Arrays" class="img-fluid rounded shadow" id="zoomImage"><br><br>
+                </div>
+                <div class="col-md-8">
+            <p><span>Selection Sort</span> is another simple way to sort a list of items, like numbers or words. It works by looking through the entire list to <span>find the smallest (or largest) item</span>. Once the smallest item is found, it gets <span>swapped with the first item in the list</span>. Then, the process is repeated for the rest of the list, starting from the second item. The next smallest item is found and swapped with the second position, and so on, until the entire list is sorted. The main idea is that each time you go through the list, you "select" the smallest item and put it in the correct place. While it's easy to understand, <span>Selection Sort can be slow for large lists</span>.</p>
+        </section>
+
+        <!-- Section 3: Singly Linked List -->
+        <section id="sorting" class="mb-5">
+            <h2 class="text-success">Insertion Sort</h2>
+            <div class="row align-items-center mb-4">
+                <div class="col-md-4">
+                    <img src="image/insertion-sort-python.jpg" alt="Example of Arrays" class="img-fluid rounded shadow" id="zoomImage"> <br><br>
+                    <img src="image/Insertionsortpic.png" alt="Example of Arrays" class="img-fluid rounded shadow" id="zoomImage"><br><br>
+                </div>
+                <div class="col-md-8">
+            <p><span>Insertion Sort</span> is a simple method for sorting a list of items. Imagine you are sorting a hand of playing cards. You pick up one card at a time and <span>insert it into its correct position</span> in the cards you've already sorted. In the same way, Insertion Sort takes each item from the list and <span>compares it to the items before it</span>. It <span>moves the item to its correct spot</span> by shifting the other items, so the list becomes more and more sorted as you go. This process continues until every item in the list is in the right order. Insertion Sort is easy to understand and works well for small lists, but it can be slow if the list is large.</p>
+        </section>
+
+        <section id="sorting" class="mb-5">
+            <h2 class="text-success">Quick Sort</h2>
+            <div class="row align-items-center mb-4">
+                <div class="col-md-4">
+                    <img src="image/quicksort-python.jpg" alt="Example of Arrays" class="img-fluid rounded shadow" id="zoomImage"> <br><br>
+                    <img src="image/quicksort-algorithm-when-pivot-is-at-middle.webp" alt="Example of Arrays" class="img-fluid rounded shadow" id="zoomImage"><br><br>
+                </div>
+                <div class="col-md-8">
+            <p><span>Quicksort</span> is a fast way to sort a list of items. It works by picking one item from the list, called the <span>"pivot."</span> Then, it rearranges the list so that all the items <span>smaller than the pivot</span> come before it, and all the items <span>bigger than the pivot</span> come after it. Once this is done, the pivot is in its correct position. Next, the list is divided into two smaller parts: one with items smaller than the pivot, and the other with items larger. These smaller parts are then sorted in the same way. This process repeats until the entire list is sorted. Quicksort is usually faster than other sorting methods because it <span>divides the list into smaller sections</span> and works on each one separately, making it very efficient for large lists.</p>
+        </section>
+
+        <section id="sorting" class="mb-5">
+            <h2 class="text-success">Radix Sort</h2>
+            <div class="row align-items-center mb-4">
+                <div class="col-md-4">
+                    <img src="image/radixsort.png" alt="Example of Arrays" class="img-fluid rounded shadow" id="zoomImage"><br><br>
+                    <img src="image/radix-sort-pic.webp" alt="Example of Arrays" class="img-fluid rounded shadow" id="zoomImage"><br><br>
+                </div>
+                <div class="col-md-8">
+                    <p><span>Radix Sort</span> is a way to sort numbers by looking at each digit, one by one, starting from the <span>rightmost digit</span> (the ones place). First, it sorts the numbers based on their ones place, then sorts them again based on the tens place, and continues this process for each digit in the numbers. It groups the numbers into <span>"buckets"</span> based on the current digit, then puts them back in order. This process is repeated for every digit in the numbers until all the digits have been checked. <span>Radix sort </span>is faster than some other sorting methods for <span>large numbers of items</span> because it sorts the numbers in several rounds, focusing on one digit at a time. However, it works best when the numbers have a <span>fixed length</span> and when there are many items to sort.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

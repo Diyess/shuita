@@ -1,0 +1,188 @@
+body {
+    background-image: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    margin: 0;
+}
+
+/* Overlay for better text visibility */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #00d4ff;
+    color: white;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    opacity: 0; /* Initially hidden for fade-in effect */
+    animation: fadeIn 1s ease-in-out forwards; /* Fade-in animation */
+}
+
+/* Keyframes for the fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.start-topic-btn {
+    padding: 14px 40px;
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.start-topic-btn:hover {
+    background-color: #00d4ff;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0px 8px 16px rgba(0, 212, 255, 0.5);
+}
+
+.start-topic-btn:focus {
+    outline: none;
+}
+
+img {
+    height: 50px;
+
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dropdown-item {
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #00d4ff;
+    color: black;
+}
+
+/* General Body Styling */
+
+
+/* Carousel Container */
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Slide Images */
+.card-body img {
+    max-height: 300px;
+    object-fit: contain;
+}
+
+/* Carousel Navigation Buttons */
+
+
+/* Custom Styling for Headings */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* List Styling */
+.list-group-item {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Margins */
+.card-body {
+    padding: 50px;
+    text-align: center;
+}
+
+.carousel-item img {
+    margin-top: 20px;
+}
+
+
+.card {
+    border: none;
+    background-color: rgb(225, 231, 235); /* Transparent background */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: none; /* Remove card shadow */
+}
+
+/* Slide Images */
+.card-body img {
+    max-height: 300px;
+    object-fit: contain;
+}
